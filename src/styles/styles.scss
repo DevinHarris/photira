@@ -1,0 +1,10 @@
+@import './base/settings';
+@import './base/base';
+@import './components/header';
+@import './components/photothumb';
+@import './components/gallery';
+@import './components/fullscale';
+
+body {
+    background: $bgColor;
+}

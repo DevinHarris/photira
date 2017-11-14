@@ -1,0 +1,11 @@
+.photoThumb {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    width: 200px;
+
+    img {
+        position: absolute;
+        min-width: 100%;
+    }
+}
