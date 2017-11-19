@@ -32,7 +32,7 @@ module.exports = {
         new BrowserSync({
             host: 'localhost',
             port: '3000',
-            server: { baseDir: ['public'] }
+            server: { baseDir: ['./'] }
         })
     ],
 

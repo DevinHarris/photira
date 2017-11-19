@@ -63,7 +63,7 @@ class Photira extends React.Component {
                         <Gallery photos={this.state.photos} updateDisplaySrc={this.updateDisplaySrc} />
                         <AddPhoto handleAddPhoto={this.handleAddPhoto}/>
                     </div>
-                    <div class="section-half">
+                    <div className="section-half">
                         <Fullscale displayUrlSrc={this.state.displaySrc}/>
                     </div>
                 </section>
