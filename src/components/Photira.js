@@ -58,12 +58,12 @@ class Photira extends React.Component {
         return (
             <div className="container">
                 <section className="main-content">
-                    <div className="section-half">
+                    <div className="section-half gallery-width">
                         <Header appName="Photira" tagLine="a reactive photo gallery app." />
                         <Gallery photos={this.state.photos} updateDisplaySrc={this.updateDisplaySrc} />
                         <AddPhoto handleAddPhoto={this.handleAddPhoto}/>
                     </div>
-                    <div className="section-half">
+                    <div className="section-half fullscale-width">
                         <Fullscale displayUrlSrc={this.state.displaySrc}/>
                     </div>
                 </section>

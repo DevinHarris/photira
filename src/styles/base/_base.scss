@@ -16,7 +16,17 @@ body {
 .section-half {
     display: flex;
     flex-direction: column;
+}
 
+.gallery-width {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fullscale-width {
+    width: 70%;
 }
 
 button {

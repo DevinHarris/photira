@@ -1,11 +1,19 @@
 .photoThumb {
     position: relative;
     height: 200px;
+    margin-bottom: 20px;
+    border-radius: 50%;
     overflow: hidden;
     width: 200px;
-
+    
     img {
         position: absolute;
-        min-width: 100%;
+        left: 50%;
+        top: 50%;
+        height: 100%;
+        width: auto;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
     }
 }
